@@ -5,6 +5,7 @@ int ingreso(int *num1, int *num2){
     printf("Ingresa el segundo numero: ");scanf("%d", *num2);
 }
 int main(){
+    printf("B I E N V E N I D O\n");
     printf("WENAAASS\nEste es el mi primer proyecto en Visual Code");
     int num1=0, num2=0;
     int op=0;

@@ -8,7 +8,7 @@ int main(){
     printf("WENAAASS\nEste es el mi primer proyecto en Visual Code");
     int num1=0, num2=0;
     int op=0;
-    do{
+    do{ 
         system("cls");
         printf("1) SUMAR DOS NUMEROS\n");
         printf("2) MULTIPLICAR DOS NUMEROS\n");

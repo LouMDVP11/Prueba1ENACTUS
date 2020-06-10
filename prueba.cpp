@@ -9,9 +9,12 @@ int main(){
     int num1=0, num2=0;
     int op=0;
     do{
+        system("cls");
+        printf("1) SUMAR DOS NUMEROS\n");
+        printf("2) MULTIPLICAR DOS NUMEROS\n");
+        printf("3) SALIR\n");
         printf("Ingrese una opcion");scanf("%d", op);
         switch(op){
-            system("cls");
             case 1:
                 ingreso(&num1, &num2);
                 printf("\nLa suma de tus numeros es: %d\n\n", num1 + num2);
@@ -31,7 +34,7 @@ int main(){
                 system("pause");  
             break;
         }
-        
+
     }while(op!=3);
    
 }

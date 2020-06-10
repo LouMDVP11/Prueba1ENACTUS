@@ -10,22 +10,16 @@ int main(){
     int op=0;
     do{ 
         system("cls");
-        printf("1) SUMAR DOS NUMEROS\n");
-        printf("2) MULTIPLICAR DOS NUMEROS\n");
-        printf("3) SALIR\n");
+        printf("1) MULTIPLICAR DOS NUMEROS\n");
+        printf("2) SALIR\n");
         printf("Ingrese una opcion");scanf("%d", op);
         switch(op){
             case 1:
                 ingreso(&num1, &num2);
-                printf("\nLa suma de tus numeros es: %d\n\n", num1 + num2);
-                system("pause");
-            break;
-            case 2:
-                ingreso(&num1, &num2);
                 printf("\nLa multiplicacion de tus numeros es: %d\n\n", num1 * num2);
                 system("pause");          
             break;
-            case 3:
+            case 2:
                 printf("\nQue le vaya bien!\n\n");
                 system("pause");  
             break;
@@ -35,6 +29,6 @@ int main(){
             break;
         }
 
-    }while(op!=3);
+    }while(op!=2);
    
 }
